@@ -13,12 +13,11 @@ public class Salesforce extends SalesforceBase {
 	
 	
 	
-	
-	
 	@When("Click on toggle menu")
-	public void clickToggle()
+	public void clickToggle() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//button[@class='slds-button slds-context-bar__button slds-icon-waffle_container slds-show']")).click();
+		Thread.sleep(2000);
 
 	}
 	

@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class SalesLogin extends SalesforceBase {
 	
@@ -32,7 +33,7 @@ public class SalesLogin extends SalesforceBase {
 
 	}
 	
-	@Then("click on login")
+	@When("click on login")
 	public void clicklogin() {
 		
 		driver.findElement(By.id("Login")).click();

@@ -1,9 +1,10 @@
 package cucumberStepDefinition;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class SalesforceBase {
 	
- public static ChromeDriver driver;
-
+ static ChromeDriver driver;
+//Actions action =new Actions(driver);
 }
